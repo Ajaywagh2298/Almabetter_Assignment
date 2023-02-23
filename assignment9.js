@@ -64,12 +64,22 @@ function even(x) {
     return x % 2 == 0;
 }
 
-function listOfEvenNumbers(listOfNumbers) {
-    return listOfNumbers;
-}
+let size = prompt("Enter size of array : ");
 
-const listOfNumbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(`Answer : ${listOfEvenNumbers(listOfNumbers)}`);
+let arr = [], result = [];
+for (let i = 0; i < size; i++) {
+    arr[i] = prompt("Enter element : ");
+}
+console.log(`Input Array`);
+console.log(arr);
+for (let i = 0; i < arr.length; i++) {
+    if (even(arr[i])) {
+        result.push(arr[i]);
+    }
+}
+console.log(`Resultent Arrys`);
+console.log(result);
+
 
 
 
