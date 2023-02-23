@@ -18,6 +18,7 @@ const str = prompt("Enter string : ");
 const regex = /^[A-Z]/;
 console.log(regex.test(str));
 
+
 /*
 TODO:Alphanumeric String
 Write a JavaScript function to check whether a given value is alphanumeric or not.
@@ -37,6 +38,7 @@ const is_alphaNumeric = (str) => {
 let str1 = prompt("Enter string : ");
 console.log(is_alphaNumeric(str1));
 
+
 /*
 TODO: Number of Vowels
 Write a JavaScript function to count the number of vowels in a given string.
@@ -48,6 +50,7 @@ Output:
 Explanation:
 Write a function vowel_count(), passing the string to it and counting the number of vowels and printing it out.
  */
+
 
 console.log("Number of Vowels");
 const vowel_count = (str) => {
@@ -62,6 +65,7 @@ const vowel_count = (str) => {
 }
 let str2 = prompt("Enter string : ");
 console.log(vowel_count(str2));
+
 
 /*
 TODO: HexColor String
